@@ -37,6 +37,6 @@ int m_brute_force(char* ori, char* patter)
 
 // int main()
 // {
-// 	printf("test %d\n", m_brute_force("cccccc", "ccg")); // 最坏情况: 设ori的长度为N， patter的长度为N那么执行次数应该是(N * M) - (N - 1)^2
+// 	printf("test %d\n", m_brute_force("cccccc", "cg")); // 最坏情况: 设ori的长度为N,patter的长度为N,那么执行次数应该是(N * M) - (N - 1)^2
 // 	return 0;
 // }
